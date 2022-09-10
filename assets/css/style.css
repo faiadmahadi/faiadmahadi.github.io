@@ -176,15 +176,15 @@
   width: 100%;
   max-width: none;
 }
-.content{
+.h-content{
   max-width: 500px;
   margin: auto;
   text-align: center;
 }
-.content h1{
+.h-content h1{
   font-family: 'Century Gothic',sans-serif;
-  color: #f9f3f4;
-  font-size: 500%;
+  color: var(--main-color);
+  font-size: var(--big-font);
   text-shadow: 0 0 300px #000;
 }
 
