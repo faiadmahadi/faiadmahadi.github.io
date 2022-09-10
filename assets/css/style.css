@@ -670,8 +670,9 @@ textarea.contact-form-text{
 }
 
 footer{
-    height: 2vh;
+    height: 4vh;
     background: #111111;
+    width: 100%;
 }
 
 footer .f-text{
