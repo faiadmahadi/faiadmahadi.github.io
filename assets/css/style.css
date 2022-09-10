@@ -669,16 +669,17 @@ textarea.contact-form-text{
     margin-bottom: 4rem;
 }
 
-footer{
-    height: 4vh;
-    background: #111111;
-    width: 100%;
+
+.sticky__footer {
+  background-color: #111111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  color: #fff;
 }
 
-footer .f-text{
-    color: var(--main-color);
-    font-weight: 700;
-    font-size: 1rem;
-    text-align: center;
-    justify-content: center;
+.heart {
+  color: red;
 }
