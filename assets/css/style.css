@@ -332,7 +332,7 @@ section .about{
     height: 100vh;
   }
 
-  .cta h1{
+  .cta .ta-container h1{
     font-size: 2rem;
   }
 }
@@ -342,11 +342,11 @@ section .about{
         margin-top: 10px;
     }
 
-    .cta h1{
+    .cta .ta-container h1{
         font-size: 2rem;
     }
 
-    .cta h4{
+    .cta .ta-container h4{
         font-size: 1.2;
     }
 
@@ -358,7 +358,7 @@ section .about{
         margin-bottom: 100px;
     }
 
-    .cta{
+    .cta .ta-container{
         margin-top: 100vh;
     }
 
@@ -541,7 +541,7 @@ section #projects{
 }
 
 
-.cta{
+.ta-container{
     background: #1a1a1a;
     width: 100%;
     padding: 80px 0;
@@ -550,14 +550,14 @@ section #projects{
     margin-bottom: 80px;
 }
 
-.cta h4{
+.ta-container h4{
     color: var(--text-color);
     font-size: 1.6rem;
     font-weight: 300;
     margin-bottom: 20px;
 }
 
-.cta h1{
+.ta-container h1{
     color: var(--main-color);
     font-size: 4rem;
     font-weight: 300;
