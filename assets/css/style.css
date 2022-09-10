@@ -156,7 +156,7 @@
     color: var(--text-color);
     line-height: 30px;
     text-align: justify;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 
@@ -671,7 +671,7 @@ textarea.contact-form-text{
 
 
 .sticky__footer {
-  background-color: #111111;
+  background-color: #1e1e1e;
   display: flex;
   justify-content: center;
   align-items: center;
