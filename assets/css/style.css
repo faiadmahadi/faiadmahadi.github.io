@@ -238,6 +238,7 @@ section .contact{
 
 .inner-width{
   max-width: 1300px;
+  padding: 30px;
   margin: auto;
 }
 
