@@ -290,16 +290,6 @@ section .contact{
   transform: translateY(-50%);
 }
 
-.block::after{
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  background-color: var(--main-color);
-  left: -28px;
-  top: 30px;
-  border-radius: 50%;
-}
 
 .block h3{
   font-size: 16px;
