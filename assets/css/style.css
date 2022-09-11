@@ -476,12 +476,10 @@ section .about{
   }
 }
 
-.tech__section {
-  margin: 100px 50px 50px 50px;
-  padding-top: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+.resume__section{
+    margin: 0;
+    padding: 0;
 }
 
 @media (max-width: 1230px) {
