@@ -272,7 +272,7 @@ section .contact{
 
 
 .block{
-  width: calc(50% - 12px);
+  width: calc(50% - 15px);
   background-color: #1a1a1a;
   border: 1px solid #ddd;
   margin: 10px 0;
