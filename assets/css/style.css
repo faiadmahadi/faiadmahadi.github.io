@@ -142,6 +142,7 @@
     float: right;
     background-color: var(--bg-color);
     padding: 100px;
+    padding-bottom: -100px;
     margin: 2rem auto;
 }
 
