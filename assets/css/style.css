@@ -384,6 +384,10 @@ section .about{
   display: none;
 }
 
+.timeline__content{
+    width: 100%;
+}
+
 .timeline ul {
   list-style: none;
 }
