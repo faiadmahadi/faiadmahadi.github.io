@@ -197,7 +197,9 @@
 }
 
 
-
+.padding{
+    padding: 20px;
+}
 
 .section-heading{
     margin-top: 100px;
