@@ -141,7 +141,7 @@
     width: 100%;
     float: right;
     background-color: var(--bg-color);
-    padding: 100px;
+    padding: 80px;
     margin: 2rem auto;
 }
 
@@ -198,10 +198,6 @@
 
 
 
-section .contact{
-    padding: 70px 17%;
-}
-
 
 .section-heading{
     margin-top: 100px;
@@ -236,6 +232,79 @@ section .contact{
     overflow: hidden;
 }
 
+.inner-width{
+  max-width: 1300px;
+  margin: auto;
+}
+
+.time-line,.works{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 980px){
+
+
+  .inner-width{
+    max-width: 800px;
+  }
+
+
+  .block{
+    width: calc(100% - 20px);
+    margin-left: auto;
+  }
+
+}
+
+@media screen and (max-width: 600px){
+  .inner-width{
+    padding: 0 20px;
+  }
+}
+
+
+
+.block{
+  width: calc(50% - 17px);
+  background-color: #1a1a1a;
+  margin: 10px 0;
+  padding: 30px;
+  position: relative;
+}
+
+.block::before{
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 120%;
+  background-color: #ddd;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.block::after{
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: var(--main-color);
+  left: -28px;
+  top: 30px;
+  border-radius: 50%;
+}
+
+.block h3{
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.block p{
+  font-size: 15px;
+  color: #fff;
+}
 
 
 .s-container .s-box .s-icon{
@@ -254,6 +323,10 @@ section .contact{
     font-weight: 700;
     transition: 1s;
     cursor: pointer;
+}
+
+section{
+    padding: 70px 17%;
 }
 
 .s-container .s-box h3{
@@ -314,12 +387,10 @@ section .contact{
     width: -100%;
 }
 
-section{
-    padding: 70px 17%;
-}
+
 
 section .about{
-    height: 100vh;
+    height: 60vh;
 
 }
 
