@@ -328,7 +328,7 @@
 }
 
 section .about{
-    padding: 70px 17%;
+    padding: 70px;
 }
 
 .resume__section {
@@ -371,6 +371,7 @@ section .about{
   align-items: center;
   justify-content: center;
   padding: 10px 0;
+  height: 80vh;
 }
 .timeline {
   width: 80%;
@@ -382,10 +383,6 @@ section .about{
 
 .noshow {
   display: none;
-}
-
-.timeline__content{
-    width: 100%;
 }
 
 .timeline ul {
@@ -894,9 +891,7 @@ textarea.contact-form-text{
   }
 
 .contact{
-    height: 100vh;
-    margin-top: 1rem;
-    margin-bottom: 4rem;
+    height: 80vh;
 }
 
 
