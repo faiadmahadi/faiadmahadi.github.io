@@ -11,7 +11,6 @@
   text-decoration: none;
 }
 
-#particles
 
 :root{
     --main-color: #2ecc71;
@@ -21,11 +20,6 @@
     --h2-font: 2.25rem;
     --p-font: 0.9rem;
     --footer-color: black;
-}
-
-#particles-js{
-    height: 100vh;
-    background: var(--bg-color);
 }
 
 
