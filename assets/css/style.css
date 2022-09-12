@@ -327,7 +327,9 @@
     cursor: pointer;
 }
 
-
+section .about{
+    padding: 70px 17%;
+}
 
 .resume__section {
   padding-top: 50px;
