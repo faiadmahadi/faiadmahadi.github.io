@@ -169,6 +169,16 @@
     font-size: 13px;
 }
 
+.fa{
+    color: #fff;
+    font-size: 20px;
+}
+
+.first-text a:hover{
+    color: var(--main-color);
+    transition: .3s;
+}
+
 @media screen and (max-width:1200px){
     .inner-container{
         padding: 80px;
