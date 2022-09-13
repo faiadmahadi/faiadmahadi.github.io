@@ -327,9 +327,7 @@
     cursor: pointer;
 }
 
-section .about{
-    padding: 70px;
-}
+
 
 
 
@@ -395,7 +393,12 @@ section .about{
 
 section .about{
     height: 60vh;
+    padding: 70px 17%;
 
+}
+
+section .education{
+    padding: 100px;
 }
 
 
