@@ -141,7 +141,7 @@
     width: 100%;
     float: right;
     background-color: var(--bg-color);
-    padding: 80px;
+    padding: 100px;
     margin: 2rem auto;
 }
 
@@ -156,7 +156,7 @@
     color: var(--text-color);
     line-height: 30px;
     text-align: justify;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 
@@ -197,9 +197,11 @@
 }
 
 
-.padding{
-    padding: 20px;
+
+section .contact{
+    padding: 70px 17%;
 }
+
 
 .section-heading{
     margin-top: 100px;
@@ -208,7 +210,8 @@
 }
 
 .services{
-    height: 100vh;
+    height: 120vh;
+    margin-top: 2rem;
     width: 100%;
 }
 
@@ -234,79 +237,6 @@
     overflow: hidden;
 }
 
-.inner-width{
-  max-width: 1300px;
-  margin: auto;
-}
-
-.time-line,.works{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-@media screen and (max-width: 980px){
-
-
-  .inner-width{
-    max-width: 800px;
-  }
-
-
-  .block{
-    width: calc(100% - 20px);
-    margin-left: auto;
-  }
-
-}
-
-@media screen and (max-width: 600px){
-  .inner-width{
-    padding: 0 20px;
-  }
-}
-
-
-
-.block{
-  width: calc(50% - 20px);
-  background-color: #1a1a1a;
-  margin: 10px 0;
-  padding: 30px;
-  position: relative;
-}
-
-.block::before{
-  content: "";
-  position: absolute;
-  width: 1px;
-  height: 120%;
-  background-color: #ddd;
-  left: -20px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.block::after{
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  background-color: var(--main-color);
-  left: -28px;
-  top: 30px;
-  border-radius: 50%;
-}
-
-.block h3{
-  font-size: 16px;
-  margin: 10px 0;
-}
-
-.block p{
-  font-size: 15px;
-  color: #fff;
-}
 
 
 .s-container .s-box .s-icon{
@@ -326,10 +256,6 @@
     transition: 1s;
     cursor: pointer;
 }
-
-
-
-
 
 .s-container .s-box h3{
     margin: 20px;
@@ -385,24 +311,13 @@
 
 }
 
-.cta{
-    width: -100%;
-}
-
-
-
-section .about{
-    height: 60vh;
-    padding: 70px 17%;
-
-}
-
-section .education{
-    padding: 100px;
-}
-
 section{
     padding: 70px 17%;
+}
+
+section .about{
+    height: 100vh;
+
 }
 
 
@@ -418,7 +333,7 @@ section{
     height: 100vh;
   }
 
-  .ta-container h1{
+  .cta h1{
     font-size: 2rem;
   }
 }
@@ -428,11 +343,11 @@ section{
         margin-top: 10px;
     }
 
-    .ta-container h1{
+    .cta h1{
         font-size: 2rem;
     }
 
-    .ta-container h4{
+    .cta h4{
         font-size: 1.2;
     }
 
@@ -444,7 +359,7 @@ section{
         margin-bottom: 100px;
     }
 
-    .ta-container{
+    .cta{
         margin-top: 100vh;
     }
 
@@ -511,7 +426,7 @@ section{
   }
 
   .home{
-    height: 100vh;
+    height: 120vh;
   }
 
 }
@@ -627,7 +542,7 @@ section #projects{
 }
 
 
-.ta-container{
+.cta{
     background: #1a1a1a;
     width: 100%;
     padding: 80px 0;
@@ -636,14 +551,14 @@ section #projects{
     margin-bottom: 80px;
 }
 
-.ta-container h4{
+.cta h4{
     color: var(--text-color);
     font-size: 1.6rem;
     font-weight: 300;
     margin-bottom: 20px;
 }
 
-.ta-container h1{
+.cta h1{
     color: var(--main-color);
     font-size: 4rem;
     font-weight: 300;
@@ -673,7 +588,7 @@ section #projects{
 }
 
 @media (max-width : 1140) {
-    {
+     .cta {
             margin-top: 500px;
     }
 }
@@ -746,20 +661,7 @@ textarea.contact-form-text{
   }
 
 .contact{
-    height: 80vh;
-}
-
-
-.sticky__footer {
-  background-color: #1e1e1e;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  width: 100%;
-  color: #fff;
-}
-
-.heart {
-  color: red;
+    height: 100vh;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
 }
