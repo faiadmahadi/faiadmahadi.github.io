@@ -171,7 +171,7 @@
 
 .bx{
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .first-text a:hover{
@@ -526,6 +526,25 @@ section #projects{
 }
 
 .btn:hover{
+    background-color: transparent;
+    border: 1px solid var(--main-color);
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.s-btn{
+    display: inline-block;
+    padding: 22px;
+    margin-top: 0;
+    background: var(--main-color);
+    color: #fff;
+    height: 40px;
+    line-height: 3px;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+.s-btn:hover{
     background-color: transparent;
     border: 1px solid var(--main-color);
     border-radius: 30px;
