@@ -401,6 +401,10 @@ section .education{
     padding: 100px;
 }
 
+section{
+    padding: 70px 17%;
+}
+
 
 
 @media (max-width: 1230px) {
