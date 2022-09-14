@@ -209,8 +209,7 @@
 .p{
     color: var(--main-color);
     font-size: var(--p-font);
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 
