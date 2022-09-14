@@ -720,20 +720,20 @@ textarea.contact-form-text{
     font-size: 24px;
     color: #fff;
     border: 1px solid white;
-    width: 40px;
-    height: 40px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
     line-height: 38px;
     display: inline-block;
     text-align: center;
     margin: 0 8px;
-    opacity: 0.75;
 }
 
 .footer .social a:hover{
     opacity: 0.9;
 }
 
-.footer .list ul{
+.list ul{
     margin-top: 0;
     padding: 0;
     list-style: none;
@@ -742,18 +742,18 @@ textarea.contact-form-text{
     margin-bottom: 0;
 }
 
-.footer .list ul li a{
+.list ul li a{
     color: #fff;
     text-decoration: none;
     opacity: 0.8;
 }
 
-.footer .list ul li{
+.list ul li{
     display: inline-block;
     padding: 0 15px;
 }
 
-.footer .list ul li a:hover{
+.list ul li a:hover{
     color: var(--main-color);
     transition: .3s ease;
 }
