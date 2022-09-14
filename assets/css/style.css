@@ -252,6 +252,10 @@ section .contact{
     overflow: hidden;
 }
 
+.t-container{
+    padding-bottom: 10px;
+}
+
 
 
 .s-container .s-box .s-icon{
