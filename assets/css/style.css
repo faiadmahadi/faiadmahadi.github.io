@@ -171,7 +171,8 @@
 
 .bx{
     color: #fff;
-    font-size: 30px;
+    font-size: 35px;
+    padding-bottom: 10px;
 }
 
 .first-text a:hover{
