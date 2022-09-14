@@ -733,7 +733,7 @@ textarea.contact-form-text{
     opacity: 0.9;
 }
 
-.footer ul{
+.footer .list ul{
     margin-top: 0;
     padding: 0;
     list-style: none;
@@ -742,18 +742,18 @@ textarea.contact-form-text{
     margin-bottom: 0;
 }
 
-.footer ul li a{
+.footer .list ul li a{
     color: #fff;
     text-decoration: none;
     opacity: 0.8;
 }
 
-.footer ul li{
+.footer .list ul li{
     display: inline-block;
     padding: 0 15px;
 }
 
-.footer ul li a:hover{
+.footer .list ul li a:hover{
     color: var(--main-color);
     transition: .3s ease;
 }
