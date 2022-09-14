@@ -159,7 +159,7 @@
 
 
 .inner-container h1{
-    color: var(--main-color);
+    color: #fff;
 }
 
 .skills{
@@ -205,6 +205,13 @@
     }
 }
 
+
+.p{
+    color: var(--main-color);
+    font-size: var(--p-font);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 
 section .contact{
