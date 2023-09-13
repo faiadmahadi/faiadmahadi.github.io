@@ -505,6 +505,7 @@ section #projects{
     max-width: 100%;
     width: 600px;
     height: auto;
+    float: right;
 }
 
 .home-text h1{
