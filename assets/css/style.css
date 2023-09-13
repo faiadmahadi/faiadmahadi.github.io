@@ -516,7 +516,6 @@ section #projects{
 .home-text h2{
     font-size: var(--h2-font);
     margin: 1rem 0 -0.5rem;
-    margin-bottom: 1rem;
 }
 
 .home-text h3{
